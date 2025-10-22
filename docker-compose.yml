@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  web:
+    build: .
+    image: hng-task-app:latest
+    container_name: hng_task_container
+    restart: always
+    # Expose port 80 internally
+    expose:
+      - "80"
