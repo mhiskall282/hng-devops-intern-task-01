@@ -5,6 +5,6 @@ services:
     image: hng-task-app:latest
     container_name: hng_task_container
     restart: always
-    # Expose port 80 internally
-    expose:
-      - "80"
+    # CRITICAL FIX: Map host port 8080 to container port 80 (where Nginx Alpine runs)
+    ports:
+      - "8080:80"
