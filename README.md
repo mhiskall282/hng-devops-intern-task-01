@@ -1,5 +1,5 @@
 
-````
+
 # DevOps Intern Stage 1 Task: Automated Deployment Pipeline
 
 ## 🚀 Objective
@@ -82,4 +82,4 @@ git commit -m "feat: Final deploy.sh script and documentation for Stage 1 submis
 
 # Push the final submission files (You will be prompted for your PAT/Password)
 git push origin main
-````
+
